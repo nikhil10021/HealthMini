@@ -1,0 +1,2 @@
+node_modules  # Dependencies bahut heavy hote hain — repo me push nahi karte.
+.env          # Secrets/keys private rahne chahiye — git par kabhi commit mat karo.
