@@ -9,6 +9,6 @@ export function auth(req, res, next) {
     req.user = decoded;
     next();
   } catch (e) {
-    res.status(401).json({ message: 'Token is not valid' });
+    res.status(401).json({ message: 'Token is not good one valid' });
   }
 }
